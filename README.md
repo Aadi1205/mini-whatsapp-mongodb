@@ -29,11 +29,12 @@ This project demonstrates **RESTful CRUD operations**, server-side rendering, an
 
 ## 📂 Project Setup
 
+```bash
 git clone https://github.com/Aadi1205/mini-whatsapp-mongodb.git
 cd mini-whatsapp-mongodb
 npm install
 node index.js
-📌 Make sure MongoDB is running locally.
+```
 
 ## Open in browser:
 
@@ -48,7 +49,7 @@ http://localhost:8080/chats
 ![New Chat](screenshots/NewChat.png)
 
 ### 📝 Edit Chat
-![Edit Chat](screenshots/EditChat.png)
+![Edit Chat](screenshots/Edit.png)
 
 ### 🗑️ Delete Confirmation
 ![Delete Chat](screenshots/Delete.png)
