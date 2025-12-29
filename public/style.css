@@ -1,0 +1,247 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Page */
+body {
+    background-color: #ece5dd;
+    padding: 20px;
+}
+
+/* Heading */
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #075e54;
+}
+
+/* New Chat Button */
+.new-chat {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.new-chat button {
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.new-chat button:hover {
+    background-color: #1ebe5d;
+}
+
+/* Chat grid */
+.chat-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Chat card */
+.chat {
+    background-color: white;
+    padding: 16px 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Meta text */
+.meta {
+    font-size: 13px;
+    color: #444;
+}
+
+.meta i {
+    font-style: normal;
+    font-weight: 600;
+    color: #075e54;
+}
+
+/* Message bubble */
+.msg {
+    background-color: #dcf8c6;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.msg p {
+    font-size: 15px;
+}
+
+/* Time */
+.time {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+/* Action buttons */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions form {
+    margin: 0;
+}
+
+.edit-btn {
+    background-color: #128c7e;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #0f766a;
+}
+
+.delete-btn {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c62828;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .chat-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* edit.ejs */
+
+/* Edit page container */
+.edit-container {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 25px 28px;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+/* Edit heading */
+.edit-container h2 {
+    text-align: center;
+    color: #075e54;
+    margin-bottom: 15px;
+}
+
+/* Info text */
+.edit-info {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.edit-info b {
+    color: #128c7e;
+}
+
+/* Textarea */
+.edit-container textarea {
+    width: 100%;
+    resize: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.edit-container textarea:focus {
+    border-color: #25d366;
+}
+
+/* Update button */
+.edit-container button {
+    width: 100%;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.edit-container button:hover {
+    background-color: #1ebe5d;
+}
+
+/* New Chat Page */
+.new-container {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 25px 28px;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.new-container h2 {
+    text-align: center;
+    color: #075e54;
+    margin-bottom: 20px;
+}
+
+/* Inputs & textarea */
+.new-container input,
+.new-container textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.new-container input:focus,
+.new-container textarea:focus {
+    border-color: #25d366;
+}
+
+/* Send button */
+.new-container button {
+    width: 100%;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.new-container button:hover {
+    background-color: #1ebe5d;
+}
