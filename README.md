@@ -25,49 +25,62 @@ This project demonstrates **RESTful CRUD operations**, server-side rendering, an
 - **Frontend:** HTML, CSS  
 - **Version Control:** Git & GitHub  
 
+---
 
 ## 📂 Project Setup
 
 ```bash
-git clone https://github.com/your-username/mini-whatsapp-mongodb.git
+git clone https://github.com/Aadi1205/mini-whatsapp-mongodb.git
 cd mini-whatsapp-mongodb
 npm install
 node index.js
+📌 Make sure MongoDB is running locally.
 
-## 📸 Screenshots
-![All Chats](screenshots/Home.png)
-![New Chat](screenshots/NewChat.png)
-![Edit Chat](screenshots/EditChat.png)
-![Delete Chat](screenshots/Delete.png)
+Open in browser:
+
+bash
+Copy code
+http://localhost:8080/chats
+📸 Screenshots
+🏠 Home – All Chats
 
 
-## 🧠 What I Learned
+✍️ Create New Chat
 
-- Implementing CRUD operations using **MongoDB & Mongoose**
-- Designing **RESTful routes**
-- Using **method-override** for PUT & DELETE requests
-- Server-side rendering with **EJS**
-- Improving UX with **confirmation alerts**
-- Structuring and documenting a **real-world backend project**
 
----
+📝 Edit Chat
 
-## 🚀 Future Enhancements
 
-- 🔐 User authentication
-- 🌍 Deployment (Render / Railway)
-- 📱 Mobile-first UI
-- 🔍 Search & filter chats
-- ☁ MongoDB Atlas integration
+🗑️ Delete Confirmation
 
----
 
-## 👤 Author
+🧠 What I Learned
+Implementing CRUD operations using MongoDB & Mongoose
 
-**Aditya Bhavsar**  
-🎓 Computer Engineering Student  
-💻 Aspiring Backend / Full-Stack giDeveloper  
+Designing RESTful routes
 
----
+Using method-override for PUT & DELETE requests
+
+Server-side rendering with EJS
+
+Improving UX with confirmation alerts
+
+Structuring and documenting a real-world backend project
+
+🚀 Future Enhancements
+🔐 User authentication
+
+🌍 Deployment (Render / Railway)
+
+📱 Mobile-first UI
+
+🔍 Search & filter chats
+
+☁ MongoDB Atlas integration
+
+👤 Author
+Aditya Bhavsar
+🎓 Computer Engineering Student
+💻 Aspiring Backend / Full-Stack Developer
 
 ⭐ If you like this project, consider giving it a star!
